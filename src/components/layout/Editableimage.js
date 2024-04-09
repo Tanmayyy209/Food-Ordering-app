@@ -49,7 +49,7 @@ export default function EditableImage({link, setLink}) {
             className="block border border-grey-300 rounded-lg p-2 text-center
    cursor-pointer"
           >
-            Edit
+            Change image
           </span>
         </label>
         </>

@@ -4,7 +4,7 @@ import Right from "../icons/right";
 export default function Hero() {
   return (
     <section className="hero mt-4">
-      <div className="py-12">
+      <div className="py-12 md:py-12">
         <h1 className="text-4xl font-semibold leading-normal">Everything<br/>
          is better<br/>
           with a&nbsp; 
@@ -22,7 +22,7 @@ export default function Hero() {
           </button>
         </div>
       </div>
-      <div className="relative">
+      <div className="relative hidden md:block">
         <Image
           src={"/pizza.png"}
           layout={"fill"}

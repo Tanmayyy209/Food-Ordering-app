@@ -1,5 +1,6 @@
-import { User } from "../../models/User";
+import { User} from "@/models/User"
 import mongoose from "mongoose";
+import bcrypt from "bcrypt"
 
 const uri = 'mongodb+srv://food-ordering:1b2kzZ9jyOZL1BEM@cluster0.f5yf323.mongodb.net/food-ordering';
 
