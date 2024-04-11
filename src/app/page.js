@@ -22,25 +22,25 @@ export default function Home() {
       Lorem Ipsum is simply dummy 
       text of the printing and typesetting 
       industry&apos; Lorem Ipsum has been the indust
-      ry's standard dummy text ever since the 1500s,
+      rys standard dummy text ever since the 1500s
        when an unknown printer took a galley of type
-        and scrambled it to make a type specimen book.
+        and scrambled it to make a type specimen book
 
       </p>
       <p>
       Lorem Ipsum is simply dummy 
       text of the printing and typesetting 
       industry&apos; Lorem Ipsum has been the indust
-      ry's standard dummy text ever since the 1500s,
+      rys standard dummy text ever since the 1500s
       when an unknown printer took a galley of type
-      and scrambled it to make a type specimen book.
+      and scrambled it to make a type specimen book
 
       </p>
       <p>
       Lorem Ipsum is simply dummy 
       text of the printing and typesetting 
       industry&apos; Lorem Ipsum has been the indust
-      ry's standard dummy
+      rys standard dummy
 
       </p>
 
