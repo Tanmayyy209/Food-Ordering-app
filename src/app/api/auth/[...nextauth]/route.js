@@ -1,6 +1,6 @@
 import CredentialsProvider from "next-auth/providers/credentials"
 import * as mongoose from "mongoose"
-import NextAuth from "next-auth";
+import NextAuth from "next-auth/next";
 import bcrypt from "bcrypt";
 import  { User } from "@/models/User";
 import GoogleProvider from "next-auth/providers/google";
@@ -9,7 +9,6 @@ import { UserInfo } from "@/models/UserInfo";
 import { getServerSession } from "next-auth";
 import { MongoDBAdapter } from "@auth/mongodb-adapter";
 
-
 const uri = 'mongodb+srv://food-ordering:1b2kzZ9jyOZL1BEM@cluster0.f5yf323.mongodb.net/food-ordering'
 const GOOGLE_CLIENT_ID = "1085210197236-8cmpajnum0jg8pt9omvljq2erfhbhhmg.apps.googleusercontent.com"
 const GOOGLE_CLIENT_SECRET = "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"
@@ -17,7 +16,7 @@ const SECRET = "bcbcjbdcsbcjsbsdcb"
 
 
 
-export const authOptions =  {
+ const authOptions =  {
   secret: SECRET,
   adapter: MongoDBAdapter(clientPromise),
     providers: [
@@ -64,6 +63,6 @@ export async function isAdmin() {
   return userInfo.admin;
 }
 
-const handler = NextAuth(authOptions);
+const handler = NextAuth(authOptions) ;
 
-export { handler as GET, handler as POST }   
+export { handler as GET, handler as POST } 
